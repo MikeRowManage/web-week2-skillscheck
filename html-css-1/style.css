@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .header {
+      background: gray;
+      display: flex;
+      height: 75px;
+      width: 100 vw;
+      justify-content: space-between;
+      padding-left: 15px;
+      padding-right: 15px;
+      align-items: center;
+  }
+
+  h1 {
+      color: white;
+      font-size: 2rem;
+      font-weight: 300;
+  }
+
+ .list {
+     height: 75px;
+     display: flex;
+ }
+
+ .list > ul {
+     width: 260px;
+     display: flex;
+     justify-content:space-between;
+     list-style: none;
+     color: white;
+     align-items: center;
+ }
+
+ .black-box {
+     background: black;
+     height: 375px;
+     width: 100 vw;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .black-box > p {
+    color: rgb(220, 255, 47);
+    font-size: 5rem;
+ }
+
+ .middle-top {
+     height: 300px;
+     width: 100vw;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     padding: 15px;
+ }
+
+ .blue-box {
+     height: 100%;
+     width: 280px;
+     background: rgb(135, 245, 216);
+     border-radius: 10%;
+ }
+
+ .middle-middle {
+     height: 300px;
+     width: 100vw;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     padding: 15px;
+ }
+
+ .orange-box {
+     height: 100%;
+     width: 600px;
+     background: rgb(255, 190, 69);
+ }
+
+ .middle-bottom {
+     height: 300px;
+     width: 100vw;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     padding: 15px;
+ }
+
+ .text {
+     height: 100%;
+     width: 600px;
+     font-size: 1.3rem;
+
+ }
+
+ .elephant {
+     height: 100%;
+     width: 420px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-image: url("https://images.squarespace-cdn.com/content/v1/5a34684ee5dd5b6cf4dcc5b2/1536248765850-YQL3BOLX2NIGVRO4GIC0/ke17ZwdGBToddI8pDm48kBV2fDZA8bP3r7mhBL3c5I4UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dkSjgVIYDs5UHxGNOgdiVijn9xBrP2iIhdVB6dQbn6Hcm7cT0R_dexc_UL_zbpz6JQ/rsz_namibia_will_burrard_lucas_wwf_us_1.jpg?format=1500w");
+    }
+
+    .bottom-box {
+        width: 100vw;
+        height: 100px;
+        background: rgb(69, 66, 66);
+    }
