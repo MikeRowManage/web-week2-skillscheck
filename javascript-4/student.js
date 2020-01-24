@@ -14,7 +14,7 @@ let me = {
     superHeroName: "Hot Dog Fingers Man",
     homeTown: "Los Angeles",
     superPowers: ["Ketchup Blast", "Eye Poke", "Bun Toaster"],
-    superPowerXP: Math.floor(Math.random() * 100) + 1,
+    superPowerXP: function(){return Math.floor(Math.random() * 100) + 1},
     profileImage: profileImage
 }
 
@@ -48,9 +48,9 @@ let homeTown = me.homeTown
 
 function setColor(arr) {
     if(arr.length > 3){
-        arr.splice(3)
+        arr.splice(3) 
     } for(let i = 0; i < arr.length; i++) {
-        if(arr[i] === "blue") {
+        if(arr[i] === "Blue") {
             arr.map((element) => {
                 return "#4D4DFF"
             })
@@ -65,9 +65,9 @@ function setColor(arr) {
 
 function setPowers(arr) {
     for(let i = 0; i < arr.length; i++){
+        createLi(arr[i]) 
     }
-    createLi(superPowers)
-}
+    }
 
 //////////////////Step 6////////////////////
 //Lastly, create a function called 'redactInfo' that will take in an object called 'obj' as a parameter. Now, imagine your super hero needs to go undercover, and you need to remove all info about them. That is what this function will do. In your function, loop over the obj parameter passed in, and change each keys value to 'redacted'. Outside of the loop but still in the redactInfo function, run the function redacted() which is a function we created that will update the text on the screen.
